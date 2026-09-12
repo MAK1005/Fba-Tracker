@@ -1,0 +1,22 @@
+for db
+. foreign keys in products with reimbursement and claims
+. foreign keys shipment id with shipment_items
+. drop table order first reimbursement, claims, shipment_items, products, shipments
+
+for products.py
+insert into asin, title unit cost
+cursor.fetchall, return rows
+products by asin, where asin =?
+update Set cost=? where id = ?
+
+for shipment.py
+insert into shipment 
+
+
+for shipment_items
+insert into shipment_items
+get item from shipment, use join asin and title needed using shipment_id
+SELECT items WHERE units_sent != units_received
+JOIN products to get asin and title
+JOIN shipments to get shipment_id text
+
