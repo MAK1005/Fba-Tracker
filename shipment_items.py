@@ -43,8 +43,9 @@ if __name__ == "__main__":
     add_product("B005678", "Phone Case", 8.50)
     add_shipment("FBA123456", "2024-01-15", "discrepancy")
     
-    add_item(1, 1, 10, 8)   # 2 units lost
-    add_item(1, 2, 5, 5)    # none lost
+    add_item(1, 1, 10, 8)   
+    
+    add_item(1, 2, 5, 5)    
     
     print(get_items_by_shipment(1))
     print(get_discrepancies())
